@@ -6,10 +6,10 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94779062397' : process.env.OWNER_NUMBER, //ADD YOUR NUMBER
-    SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID, //ADD YOUR SSION ID
-    GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? '' : process.env.GITHUB_USER_NAME, //ADD YOUR GITHUB USERNAME
-    GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? '' : process.env.GITHUB_AUTH_TOKEN, //ADD YOUR GITHUB AUTH TOKEN WITHOUT gph_ ,  example - G5OxxdvEbiBPWxm4A0xypQGlyCr4FS267ifz
+    OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94779062397' : process.env.OWNER_NUMBER, /93780255568/ADD YOUR NUMBER
+    SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID, /𝕃𝔸ℝ𝔸-𝕄𝔻=CYYGgCyQ#Lef8lx6GNkSms41frM-gHude3aP2RShGjzepYYkxwJA/
+    GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? '' : process.env.GITHUB_USER_NAME, /omar/ADD YOUR GITHUB USERNAME
+    GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? '' : process.env.GITHUB_AUTH_TOKEN, /yousufrahimi/ADD YOUR GITHUB AUTH TOKEN WITHOUT gph_ ,  example - G5OxxdvEbiBPWxm4A0xypQGlyCr4FS267ifz
     WELCOME: process.env.WELCOME === undefined ? 'true' : process.env.WELCOME,
     GOODBYE: process.env.GOODBYE === undefined ? 'true' : process.env.GOODBYE
 };
